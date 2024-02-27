@@ -6,6 +6,9 @@ The game contains the following features:
 
 Collision detection and resolution
 Level editor,
+Pathfinding system for enemies,
+Health and damage,
+Particle system,
 Memory pool,
 Entity manager,
 Sprite manager,
