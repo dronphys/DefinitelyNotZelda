@@ -5,11 +5,11 @@ The game engine is written using the ECS paradigm.
 The game contains the following features:
 
 Collision detection and resolution
-Level editor
-Memory pool
-Entity manager
-Sprite manager
-Sound system
+Level editor,
+Memory pool,
+Entity manager,
+Sprite manager,
+Sound system,
 
 
 How to build:
