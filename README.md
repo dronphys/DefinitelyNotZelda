@@ -7,4 +7,4 @@ Tested with Visual Studyio 2022.
 
 **Dependencies:**
 
-Dear ImGUi, SFML, SFML::ImGui.
+Dear ImGUi, SFML, ImGui-SFML.
