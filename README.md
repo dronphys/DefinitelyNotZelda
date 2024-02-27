@@ -2,9 +2,10 @@ A NES Zelda clone made for educational purposes with a game engine written in C+
 
 The game engine is written using the ECS paradigm.
 
-The game engine contains the following features:
+The game contains the following features:
 
-Collision detection
+Collision detection and resolution
+Level editor
 Memory pool
 Entity manager
 Sprite manager
