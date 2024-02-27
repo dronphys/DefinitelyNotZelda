@@ -1,17 +1,23 @@
-A NES Zelda clone made with my tiny game engine written in C++.
+A NES Zelda clone made for educational purposes with a game engine written in C++.
 
-The game engine is built using ECS arichitecture. 
+The game engine is written using the ECS paradigm.
 
-**The game engine contains the following features:**
+The game engine contains the following features:
 
-Collision detection, memory pool, entity manager, sprite manager. sound system and more.
+Collision detection
+Memory pool
+Entity manager
+Sprite manager
+Sound system
 
 
-**How to build:**
+How to build:
 
-Run CMake and create Visual Studio solution in the build directory. 
-Tested with Visual Studyio 2022.
+Run CMake to create a Visual Studio solution in the build directory.
+Tested with Visual Studio 2022.
 
-**Dependencies:**
+Dependencies:
 
-Dear ImGUi, SFML, ImGui-SFML.
+Dear ImGui
+SFML
+ImGui-SFML
