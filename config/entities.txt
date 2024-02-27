@@ -1,0 +1,32 @@
+Tile TileBush 1 1
+
+Tile TileLake1 1 0
+Tile TileLake2 1 0
+Tile TileLake3 1 0
+Tile TileLake4 1 0
+Tile TileLake5 1 0
+Tile TileLake6 1 0
+Tile TileLake7 1 0
+Tile TileLake8 1 0
+Tile TileLake9 1 0
+
+Tile TileTreeMonster1 1 1
+Tile TileTreeMonster2 1 1
+Tile TileTreeMonster3 1 1
+Tile TileTreeMonster4 1 1
+Tile TileTreeMonster5 1 1
+Tile TileTreeMonster6 1 1
+
+Tile TileRock1 1 1
+Tile TileRock2 1 1
+Tile TileRock3 1 1
+Tile TileRock4 1 1
+Tile TileRock5 1 1
+Tile TileRock6 1 1
+Tile TileStair 1 1
+Tile TileHeart 1 1
+NPC TektiteStandFront
+NPC ArmosStandFront
+NPC CrabBoss
+NPC PigBoss
+Player LinkMoveDown

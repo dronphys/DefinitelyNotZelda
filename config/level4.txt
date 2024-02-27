@@ -1,0 +1,10 @@
+Tile TileBush 0 0 5 3 1 1
+Tile TileBush 0 0 4 6 1 1
+Tile TileBush 0 0 9 7 1 1
+Tile TileBush 0 0 4 1 1 1
+Tile TileBush 0 0 1 6 1 1
+Tile TileBush 0 0 2 7 1 1
+Tile TileLake6 0 0 7 3 1 0
+Tile TileLake6 0 0 7 6 1 0
+Tile TileLake6 0 0 6 8 1 0
+Tile TileLake6 0 0 7 10 1 0
