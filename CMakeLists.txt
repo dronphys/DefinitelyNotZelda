@@ -56,6 +56,16 @@ if(WIN32)
   endif()
 endif()
 
+if(WIN32)
+add_custom_command(
+    TARGET ${exec_name}
+    COMMENT "Copy OpenAL DLL"
+    PRE_BUILD COMMAND ${CMAKE_COMMAND} -E copy ${SFML_SOURCE_DIR}/extlibs/bin/$<IF:$<EQUAL:${CMAKE_SIZEOF_VOID_P},8>,x64,x86>/openal32.dll $<TARGET_FILE_DIR:${exec_name}>
+    VERBATIM)
+endif()
+
+
+
 file(
     COPY ${CMAKE_SOURCE_DIR}/assets/ 
     DESTINATION ${CMAKE_BINARY_DIR}/assets/
