@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 
 project(
-    Assignment4
+    GameAndEngine
     LANGUAGES CXX
     VERSION 0.1.0
 )
@@ -33,7 +33,7 @@ set(SRC_FILES
     src/MemoryPool.cpp
     src/ParticleSystem.cpp)
 
-set(exec_name A4)
+set(exec_name DefinitelyNotZelda)
 add_executable(${exec_name} ${SRC_FILES})
 
 
@@ -49,6 +49,7 @@ if(WIN32)
       COMMAND ${CMAKE_COMMAND} -E copy_if_different
           $<TARGET_FILE:ImGui-SFML::ImGui-SFML>
           $<TARGET_FILE:sfml-graphics>
+          $<TARGET_FILE:sfml-audio>
           $<TARGET_FILE:sfml-window>
           $<TARGET_FILE:sfml-system>
           $<TARGET_FILE_DIR:${exec_name}>)
@@ -60,7 +61,4 @@ file(
     DESTINATION ${CMAKE_BINARY_DIR}/assets/
 )
 
-file(
-    COPY ${CMAKE_SOURCE_DIR}/config/
-    DESTINATION ${CMAKE_BINARY_DIR}/config/
-)
+
